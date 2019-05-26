@@ -16,6 +16,7 @@ namespace Colegio_Panamericana
     {
         //hola chaps-chaps,estoy un tanto seguroque esta conexion la  vas a tener que hacer statica en algun momento para no tenerla que levantar acada rato
         //dain out
+        //hey hye ahora hay github :)
         MySqlConnection connection = Conexion.connection();
         
         public IniciarSesion()
