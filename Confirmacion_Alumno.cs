@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Colegio_Panamericana
 {
-    public partial class Confirmacion_Eliminacion : Form
+    public partial class Confirmacion_Alumno : Form
     {
-        public Confirmacion_Eliminacion()
+        public Confirmacion_Alumno()
         {
             InitializeComponent();
         }

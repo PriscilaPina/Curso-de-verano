@@ -415,7 +415,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(863, 597);
+            this.btnSave.Location = new System.Drawing.Point(876, 614);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 39;
@@ -426,7 +426,7 @@
             // 
             this.lblCosto.AutoSize = true;
             this.lblCosto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCosto.Location = new System.Drawing.Point(813, 542);
+            this.lblCosto.Location = new System.Drawing.Point(826, 546);
             this.lblCosto.Name = "lblCosto";
             this.lblCosto.Size = new System.Drawing.Size(48, 16);
             this.lblCosto.TabIndex = 40;
@@ -436,17 +436,17 @@
             // 
             this.lblCost.AutoSize = true;
             this.lblCost.BackColor = System.Drawing.Color.White;
-            this.lblCost.Location = new System.Drawing.Point(873, 542);
+            this.lblCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCost.Location = new System.Drawing.Point(886, 546);
             this.lblCost.Name = "lblCost";
-            this.lblCost.Size = new System.Drawing.Size(65, 16);
+            this.lblCost.Size = new System.Drawing.Size(0, 18);
             this.lblCost.TabIndex = 41;
-            this.lblCost.Text = "                   ";
             // 
             // lblPago
             // 
             this.lblPago.AutoSize = true;
             this.lblPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPago.Location = new System.Drawing.Point(813, 572);
+            this.lblPago.Location = new System.Drawing.Point(826, 576);
             this.lblPago.Name = "lblPago";
             this.lblPago.Size = new System.Drawing.Size(45, 16);
             this.lblPago.TabIndex = 42;
@@ -454,7 +454,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(872, 569);
+            this.textBox1.Location = new System.Drawing.Point(885, 573);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(66, 22);
             this.textBox1.TabIndex = 43;
@@ -510,7 +510,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblDatosAlumnos);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1000, 700);
             this.MinimumSize = new System.Drawing.Size(1000, 700);

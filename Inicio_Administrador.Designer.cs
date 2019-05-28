@@ -90,9 +90,9 @@
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(604, 65);
+            this.btnRegister.Location = new System.Drawing.Point(562, 65);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(127, 25);
+            this.btnRegister.Size = new System.Drawing.Size(169, 25);
             this.btnRegister.TabIndex = 8;
             this.btnRegister.Text = "Registrar Empleado";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -139,12 +139,12 @@
             this.tabContraseña.Padding = new System.Windows.Forms.Padding(3);
             this.tabContraseña.Size = new System.Drawing.Size(751, 407);
             this.tabContraseña.TabIndex = 2;
-            this.tabContraseña.Text = "Contraseña";
+            this.tabContraseña.Text = "Recuperación de Contraseña";
             // 
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(146, 274);
+            this.btnSave.Location = new System.Drawing.Point(147, 283);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(89, 29);
             this.btnSave.TabIndex = 6;
@@ -155,7 +155,7 @@
             // txtConPass
             // 
             this.txtConPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConPass.Location = new System.Drawing.Point(83, 220);
+            this.txtConPass.Location = new System.Drawing.Point(84, 229);
             this.txtConPass.Name = "txtConPass";
             this.txtConPass.PasswordChar = '*';
             this.txtConPass.Size = new System.Drawing.Size(206, 24);
@@ -164,7 +164,7 @@
             // txtNewPass
             // 
             this.txtNewPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNewPass.Location = new System.Drawing.Point(83, 161);
+            this.txtNewPass.Location = new System.Drawing.Point(84, 170);
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '*';
             this.txtNewPass.Size = new System.Drawing.Size(206, 24);
@@ -173,7 +173,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(81, 101);
+            this.txtUsuario.Location = new System.Drawing.Point(82, 110);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(208, 24);
             this.txtUsuario.TabIndex = 3;
@@ -182,7 +182,7 @@
             // 
             this.lblConPass.AutoSize = true;
             this.lblConPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConPass.Location = new System.Drawing.Point(101, 199);
+            this.lblConPass.Location = new System.Drawing.Point(102, 208);
             this.lblConPass.Name = "lblConPass";
             this.lblConPass.Size = new System.Drawing.Size(175, 18);
             this.lblConPass.TabIndex = 2;
@@ -192,7 +192,7 @@
             // 
             this.lblNewPass.AutoSize = true;
             this.lblNewPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNewPass.Location = new System.Drawing.Point(114, 140);
+            this.lblNewPass.Location = new System.Drawing.Point(115, 149);
             this.lblNewPass.Name = "lblNewPass";
             this.lblNewPass.Size = new System.Drawing.Size(147, 18);
             this.lblNewPass.TabIndex = 1;
@@ -202,7 +202,7 @@
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(158, 80);
+            this.lblUser.Location = new System.Drawing.Point(159, 89);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(67, 18);
             this.lblUser.TabIndex = 0;
