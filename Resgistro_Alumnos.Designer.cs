@@ -64,14 +64,14 @@
             this.chckDesayuno = new System.Windows.Forms.CheckBox();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.lblCAlumnos = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbCantidad = new System.Windows.Forms.ComboBox();
             this.txtStatus = new System.Windows.Forms.Label();
             this.lblAño = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.lblCosto = new System.Windows.Forms.Label();
             this.lblCost = new System.Windows.Forms.Label();
             this.lblPago = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPago = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblDatosAlumnos
@@ -386,7 +386,7 @@
             this.lblCAlumnos.TabIndex = 35;
             this.lblCAlumnos.Text = "Alumnos";
             // 
-            // comboBox2
+            // cmbCantidad
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(118, 491);
@@ -454,11 +454,11 @@
             this.lblPago.TabIndex = 42;
             this.lblPago.Text = "Pago";
             // 
-            // textBox1
+            // txtPago
             // 
             this.textBox1.Location = new System.Drawing.Point(885, 573);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(66, 22);
+            this.textBox1.Size = new System.Drawing.Size(66, 26);
             this.textBox1.TabIndex = 43;
             // 
             // Registro_Alumnos
@@ -466,15 +466,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(213)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(984, 661);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(982, 653);
+            this.Controls.Add(this.txtPago);
             this.Controls.Add(this.lblPago);
             this.Controls.Add(this.lblCost);
             this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblAño);
             this.Controls.Add(this.txtStatus);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cmbCantidad);
             this.Controls.Add(this.lblCAlumnos);
             this.Controls.Add(this.lblCantidad);
             this.Controls.Add(this.chckDesayuno);
@@ -563,13 +563,13 @@
         private System.Windows.Forms.CheckBox chckDesayuno;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Label lblCAlumnos;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbCantidad;
         private System.Windows.Forms.Label txtStatus;
         private System.Windows.Forms.Label lblAño;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label lblCosto;
         private System.Windows.Forms.Label lblCost;
         private System.Windows.Forms.Label lblPago;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPago;
     }
 }
