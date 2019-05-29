@@ -15,7 +15,7 @@ namespace Colegio_Panamericana.Connections
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
             builder.Server = "localhost";
             builder.UserID = "root";
-            builder.Password = "";
+            builder.Password = "root";
             builder.Database = "bdColegioPanamericana";
             MySqlConnection connection = new MySqlConnection(builder.ToString());
 

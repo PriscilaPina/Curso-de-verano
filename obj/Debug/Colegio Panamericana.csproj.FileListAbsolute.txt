@@ -42,3 +42,27 @@ C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Pana
 C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Pagos_Alumnos.resources
 C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Perfil_Alumno.resources
 C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Perfil_Empleado.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio Panamericana.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Confirmacion_Alumno.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Confirmacion_Empleado.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Editar_Alumno.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.IniciarSesion.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Inicio_Administrador.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Inicio_Usuario.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Pagos_Alumnos.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Perfil_Alumno.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Perfil_Empleado.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Properties.Resources.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Registro_Empleado.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Registro_Alumnos.resources
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio Panamericana.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio Panamericana.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio Panamericana.exe
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio Panamericana.pdb
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\bin\Debug\Colegio Panamericana.exe.config
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\bin\Debug\Colegio Panamericana.exe
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\bin\Debug\Colegio Panamericana.pdb
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\ColegioPanamericana-master\ColegioPanamericana\obj\Debug\Colegio Panamericana.csproj.CopyComplete
