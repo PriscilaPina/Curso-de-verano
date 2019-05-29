@@ -30,8 +30,7 @@ namespace Colegio_Panamericana
         {
             try
             {
-                MySqlCommand validar = new MySqlCommand("SELECT Tipo_Cuenta FROM Empleado WHERE Usuario=@Usuario AND Contraseña=@Contraseña", connection);
-                validar.Parameters.AddWithValue("Usuario", user);
+                MySqlCommand validar = new MySqlCommand("SELECT Tipo_Cuenta FROM Empleado WHERE Usuario like '%" + user +"%' AND Contraseña=@Contraseña", connection);
                 validar.Parameters.AddWithValue("Contraseña", pass);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(validar);
                 DataTable table = new DataTable();

@@ -62,7 +62,7 @@ namespace Colegio_Panamericana
         }
         public void Dates(DataGridView data)
         {
-            MySqlCommand dates = new MySqlCommand("SELECT Nombre, Apellido_Paterno, Apellido_Materno, Usuario, Tipo_Cuenta FROM Empleado", connection);
+            MySqlCommand dates = new MySqlCommand("SELECT id_Empleado, Nombre, Apellido_Paterno, Apellido_Materno, Usuario, Tipo_Cuenta FROM Empleado", connection);
             try
             {
                 MySqlDataAdapter adapter = new MySqlDataAdapter(dates);
@@ -81,7 +81,7 @@ namespace Colegio_Panamericana
 
         public void Find(DataGridView data, string name)
         {
-            MySqlCommand find = new MySqlCommand("SELECT Nombre, Apellido_Paterno, Apellido_Materno, Usuario, Tipo_Cuenta FROM Empleado WHERE Nombre like '%" + name +"%'", connection);
+            MySqlCommand find = new MySqlCommand("SELECT id_Empleado, Nombre, Apellido_Paterno, Apellido_Materno, Usuario, Tipo_Cuenta FROM Empleado WHERE Nombre like '%" + name +"%'", connection);
             
             try
             {
@@ -99,6 +99,19 @@ namespace Colegio_Panamericana
             }
         }
 
+        public void SelectCell()
+        {
+                int id = int.Parse( dGridEmpleado.SelectedCells[0].Value.ToString());
+
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM Empleado WHERE id_Empleado = @id", connection);
+                cmd.Parameters.AddWithValue("id", id);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+                new Perfil_Empleado(int.Parse(table.Rows[0][0].ToString()), table.Rows[0][1].ToString(), table.Rows[0][2].ToString(), table.Rows[0][3].ToString(), table.Rows[0][4].ToString(), table.Rows[0][5].ToString(), table.Rows[0][6].ToString()).Show();
+          
+        }
+
         private void BtnSave_Click(object sender, EventArgs e)
         {
             CheckUser(this.txtUsuario.Text);
@@ -112,6 +125,12 @@ namespace Colegio_Panamericana
         private void BtnSearch_Click(object sender, EventArgs e)
         {
             Find(dGridEmpleado, txtSearch.Text);
+        }
+
+        private void DGridEmpleado_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            SelectCell();
+
         }
     }
 }

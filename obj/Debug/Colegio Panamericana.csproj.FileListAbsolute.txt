@@ -36,3 +36,9 @@ C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Pana
 C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio Panamericana.csproj.CopyComplete
 C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio Panamericana.exe
 C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio Panamericana.pdb
+C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Confirmacion_Alumno.resources
+C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Confirmacion_Empleado.resources
+C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Editar_Alumno.resources
+C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Pagos_Alumnos.resources
+C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Perfil_Alumno.resources
+C:\Users\Laptop-Lenovo\Desktop\Colegio Panamericana\Curso de Verano\Colegio Panamericana\ColegioPanamericana\obj\Debug\Colegio_Panamericana.Perfil_Empleado.resources

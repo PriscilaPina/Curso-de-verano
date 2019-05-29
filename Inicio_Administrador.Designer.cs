@@ -106,6 +106,7 @@
             this.dGridEmpleado.Name = "dGridEmpleado";
             this.dGridEmpleado.Size = new System.Drawing.Size(711, 262);
             this.dGridEmpleado.TabIndex = 7;
+            this.dGridEmpleado.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGridEmpleado_CellClick);
             // 
             // btnSearch
             // 
