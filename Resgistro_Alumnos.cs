@@ -21,10 +21,10 @@ namespace Colegio_Panamericana
             lblAño.Text = DateTime.Now.ToString("yyyy");
             connection.Open();
             CargarHorarios();
-            comboBox2.Items.Add("1");
-            comboBox2.Items.Add("2");
-            comboBox2.Items.Add("3");
-            comboBox2.SelectedIndex = 0;
+            cmbCantidad.Items.Add("1");
+            cmbCantidad.Items.Add("2");
+            cmbCantidad.Items.Add("3");
+            cmbCantidad.SelectedIndex = 0;
 
         }
 
@@ -92,7 +92,7 @@ namespace Colegio_Panamericana
             try
             {
                 result = cmbHorario.SelectedItem.ToString() != "" ? result : false;
-                result = comboBox2.SelectedItem.ToString() != "" ? result : false;
+                result = cmbCantidad.SelectedItem.ToString() != "" ? result : false;
             }
             catch {
                 result = false;

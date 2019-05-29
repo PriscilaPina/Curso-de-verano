@@ -388,11 +388,11 @@
             // 
             // cmbCantidad
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(118, 491);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 36;
+            this.cmbCantidad.FormattingEnabled = true;
+            this.cmbCantidad.Location = new System.Drawing.Point(118, 491);
+            this.cmbCantidad.Name = "comboBox2";
+            this.cmbCantidad.Size = new System.Drawing.Size(121, 24);
+            this.cmbCantidad.TabIndex = 36;
             // 
             // txtStatus
             // 
@@ -456,10 +456,10 @@
             // 
             // txtPago
             // 
-            this.textBox1.Location = new System.Drawing.Point(885, 573);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(66, 26);
-            this.textBox1.TabIndex = 43;
+            this.txtPago.Location = new System.Drawing.Point(885, 573);
+            this.txtPago.Name = "textBox1";
+            this.txtPago.Size = new System.Drawing.Size(66, 26);
+            this.txtPago.TabIndex = 43;
             // 
             // Registro_Alumnos
             // 
