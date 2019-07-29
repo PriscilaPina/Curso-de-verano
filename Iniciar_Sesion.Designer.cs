@@ -45,10 +45,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(609, 92);
-            this.lblUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblUser.Location = new System.Drawing.Point(457, 75);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(74, 20);
+            this.lblUser.Size = new System.Drawing.Size(62, 16);
             this.lblUser.TabIndex = 1;
             this.lblUser.Text = "Usuario";
             this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -60,10 +59,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPass.AutoSize = true;
             this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPass.Location = new System.Drawing.Point(596, 162);
-            this.lblPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPass.Location = new System.Drawing.Point(447, 132);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(105, 20);
+            this.lblPass.Size = new System.Drawing.Size(87, 16);
             this.lblPass.TabIndex = 2;
             this.lblPass.Text = "Contraseña";
             // 
@@ -73,11 +71,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(541, 117);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUser.Location = new System.Drawing.Point(406, 95);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(215, 26);
+            this.txtUser.Size = new System.Drawing.Size(162, 23);
             this.txtUser.TabIndex = 3;
+            this.txtUser.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtUser_KeyDown);
             // 
             // txtPass
             // 
@@ -85,12 +83,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(541, 186);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPass.Location = new System.Drawing.Point(406, 151);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(215, 26);
+            this.txtPass.Size = new System.Drawing.Size(162, 22);
             this.txtPass.TabIndex = 4;
+            this.txtPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtPass_KeyDown);
             // 
             // linkPass
             // 
@@ -98,10 +96,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.linkPass.AutoSize = true;
-            this.linkPass.Location = new System.Drawing.Point(583, 217);
-            this.linkPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkPass.Location = new System.Drawing.Point(437, 176);
             this.linkPass.Name = "linkPass";
-            this.linkPass.Size = new System.Drawing.Size(174, 17);
+            this.linkPass.Size = new System.Drawing.Size(131, 13);
             this.linkPass.TabIndex = 5;
             this.linkPass.TabStop = true;
             this.linkPass.Text = "¿Olvidaste tu contraseña?";
@@ -114,10 +111,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLogin.BackColor = System.Drawing.Color.White;
             this.btnLogin.ForeColor = System.Drawing.Color.Navy;
-            this.btnLogin.Location = new System.Drawing.Point(572, 267);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogin.Location = new System.Drawing.Point(429, 217);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(157, 28);
+            this.btnLogin.Size = new System.Drawing.Size(118, 23);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Iniciar Sesión";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -130,20 +126,19 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.imgLogo.BackColor = System.Drawing.Color.Navy;
             this.imgLogo.Image = global::Colegio_Panamericana.Properties.Resources.CP__Logo;
-            this.imgLogo.Location = new System.Drawing.Point(17, 16);
-            this.imgLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.imgLogo.Location = new System.Drawing.Point(13, 13);
             this.imgLogo.Name = "imgLogo";
-            this.imgLogo.Size = new System.Drawing.Size(400, 369);
+            this.imgLogo.Size = new System.Drawing.Size(300, 300);
             this.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imgLogo.TabIndex = 0;
             this.imgLogo.TabStop = false;
             // 
             // IniciarSesion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(219)))), ((int)(((byte)(43)))));
-            this.ClientSize = new System.Drawing.Size(864, 389);
+            this.ClientSize = new System.Drawing.Size(650, 323);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.linkPass);
             this.Controls.Add(this.txtPass);
@@ -151,11 +146,10 @@
             this.Controls.Add(this.lblPass);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.imgLogo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(882, 436);
+            this.MaximumSize = new System.Drawing.Size(666, 362);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(882, 436);
+            this.MinimumSize = new System.Drawing.Size(666, 362);
             this.Name = "IniciarSesion";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -13,10 +13,13 @@ namespace Colegio_Panamericana.Connections
         public static MySqlConnection connection()
         {
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
-            builder.Server = "localhost";
-            builder.UserID = "root";
-            builder.Password = "root";
-            builder.Database = "bdColegioPanamericana";
+
+            builder.Server = "";
+            
+            builder.Port = ;
+            builder.UserID = "";
+            builder.Password = "";
+            builder.Database = "";
             MySqlConnection connection = new MySqlConnection(builder.ToString());
 
             return connection;

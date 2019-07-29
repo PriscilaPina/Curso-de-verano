@@ -62,16 +62,20 @@
             this.cmbHorario = new System.Windows.Forms.ComboBox();
             this.chckComida = new System.Windows.Forms.CheckBox();
             this.chckDesayuno = new System.Windows.Forms.CheckBox();
-            this.lblCantidad = new System.Windows.Forms.Label();
-            this.lblCAlumnos = new System.Windows.Forms.Label();
-            this.cmbCantidad = new System.Windows.Forms.ComboBox();
+            this.lblFamiliares = new System.Windows.Forms.Label();
             this.txtStatus = new System.Windows.Forms.Label();
             this.lblAño = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
-            this.lblCosto = new System.Windows.Forms.Label();
             this.lblCost = new System.Windows.Forms.Label();
-            this.lblPago = new System.Windows.Forms.Label();
-            this.txtPago = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtNombreAsociado = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtApellidoPAsociado = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtApellidoMAsociado = new System.Windows.Forms.TextBox();
+            this.GuardarYAgregar = new System.Windows.Forms.Button();
+            this.asociarAOtro = new System.Windows.Forms.CheckBox();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblDatosAlumnos
@@ -80,7 +84,7 @@
             this.lblDatosAlumnos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatosAlumnos.Location = new System.Drawing.Point(40, 21);
             this.lblDatosAlumnos.Name = "lblDatosAlumnos";
-            this.lblDatosAlumnos.Size = new System.Drawing.Size(175, 24);
+            this.lblDatosAlumnos.Size = new System.Drawing.Size(218, 29);
             this.lblDatosAlumnos.TabIndex = 0;
             this.lblDatosAlumnos.Text = "Datos del Alumno";
             // 
@@ -89,7 +93,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.Location = new System.Drawing.Point(45, 61);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(72, 16);
+            this.lblNombre.Size = new System.Drawing.Size(89, 20);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Nombre(s)";
             // 
@@ -98,7 +102,7 @@
             this.lblApellidoP.AutoSize = true;
             this.lblApellidoP.Location = new System.Drawing.Point(325, 61);
             this.lblApellidoP.Name = "lblApellidoP";
-            this.lblApellidoP.Size = new System.Drawing.Size(108, 16);
+            this.lblApellidoP.Size = new System.Drawing.Size(131, 20);
             this.lblApellidoP.TabIndex = 2;
             this.lblApellidoP.Text = "Apellido Paterno";
             // 
@@ -107,29 +111,29 @@
             this.lblApellidoM.AutoSize = true;
             this.lblApellidoM.Location = new System.Drawing.Point(642, 61);
             this.lblApellidoM.Name = "lblApellidoM";
-            this.lblApellidoM.Size = new System.Drawing.Size(110, 16);
+            this.lblApellidoM.Size = new System.Drawing.Size(134, 20);
             this.lblApellidoM.TabIndex = 3;
-            this.lblApellidoM.Text = "Apeliido Materno";
+            this.lblApellidoM.Text = "Apellido Materno";
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(123, 58);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(180, 22);
+            this.txtNombre.Size = new System.Drawing.Size(180, 26);
             this.txtNombre.TabIndex = 4;
             // 
             // txtApellidoP
             // 
             this.txtApellidoP.Location = new System.Drawing.Point(439, 58);
             this.txtApellidoP.Name = "txtApellidoP";
-            this.txtApellidoP.Size = new System.Drawing.Size(180, 22);
+            this.txtApellidoP.Size = new System.Drawing.Size(180, 26);
             this.txtApellidoP.TabIndex = 5;
             // 
             // txtApellidoM
             // 
             this.txtApellidoM.Location = new System.Drawing.Point(758, 58);
             this.txtApellidoM.Name = "txtApellidoM";
-            this.txtApellidoM.Size = new System.Drawing.Size(180, 22);
+            this.txtApellidoM.Size = new System.Drawing.Size(180, 26);
             this.txtApellidoM.TabIndex = 6;
             // 
             // lblEdad
@@ -137,7 +141,7 @@
             this.lblEdad.AutoSize = true;
             this.lblEdad.Location = new System.Drawing.Point(48, 96);
             this.lblEdad.Name = "lblEdad";
-            this.lblEdad.Size = new System.Drawing.Size(41, 16);
+            this.lblEdad.Size = new System.Drawing.Size(47, 20);
             this.lblEdad.TabIndex = 7;
             this.lblEdad.Text = "Edad";
             // 
@@ -146,7 +150,7 @@
             this.lblFechaN.AutoSize = true;
             this.lblFechaN.Location = new System.Drawing.Point(216, 96);
             this.lblFechaN.Name = "lblFechaN";
-            this.lblFechaN.Size = new System.Drawing.Size(139, 16);
+            this.lblFechaN.Size = new System.Drawing.Size(172, 20);
             this.lblFechaN.TabIndex = 8;
             this.lblFechaN.Text = "Fecha de Nacimiento ";
             // 
@@ -155,7 +159,7 @@
             this.dateFechaN.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateFechaN.Location = new System.Drawing.Point(361, 92);
             this.dateFechaN.Name = "dateFechaN";
-            this.dateFechaN.Size = new System.Drawing.Size(129, 22);
+            this.dateFechaN.Size = new System.Drawing.Size(129, 26);
             this.dateFechaN.TabIndex = 9;
             // 
             // lblDireccion
@@ -163,7 +167,7 @@
             this.lblDireccion.AutoSize = true;
             this.lblDireccion.Location = new System.Drawing.Point(511, 96);
             this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(65, 16);
+            this.lblDireccion.Size = new System.Drawing.Size(81, 20);
             this.lblDireccion.TabIndex = 10;
             this.lblDireccion.Text = "Dirección";
             // 
@@ -171,7 +175,7 @@
             // 
             this.txtEdad.Location = new System.Drawing.Point(95, 92);
             this.txtEdad.Name = "txtEdad";
-            this.txtEdad.Size = new System.Drawing.Size(100, 22);
+            this.txtEdad.Size = new System.Drawing.Size(100, 26);
             this.txtEdad.TabIndex = 11;
             this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtEdad_KeyPress);
             // 
@@ -179,7 +183,7 @@
             // 
             this.txtDireccion.Location = new System.Drawing.Point(583, 93);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(355, 22);
+            this.txtDireccion.Size = new System.Drawing.Size(355, 26);
             this.txtDireccion.TabIndex = 12;
             // 
             // lblServicioM
@@ -187,7 +191,7 @@
             this.lblServicioM.AutoSize = true;
             this.lblServicioM.Location = new System.Drawing.Point(45, 136);
             this.lblServicioM.Name = "lblServicioM";
-            this.lblServicioM.Size = new System.Drawing.Size(105, 16);
+            this.lblServicioM.Size = new System.Drawing.Size(128, 20);
             this.lblServicioM.TabIndex = 13;
             this.lblServicioM.Text = "Servicio Medico";
             // 
@@ -200,22 +204,24 @@
             "Otro..."});
             this.cmbServivioM.Location = new System.Drawing.Point(163, 130);
             this.cmbServivioM.Name = "cmbServivioM";
-            this.cmbServivioM.Size = new System.Drawing.Size(157, 24);
+            this.cmbServivioM.Size = new System.Drawing.Size(157, 28);
             this.cmbServivioM.TabIndex = 14;
+            this.cmbServivioM.SelectedIndexChanged += new System.EventHandler(this.CmbServivioM_SelectedIndexChanged);
             // 
             // txtServicioM
             // 
             this.txtServicioM.Location = new System.Drawing.Point(343, 133);
             this.txtServicioM.Name = "txtServicioM";
-            this.txtServicioM.Size = new System.Drawing.Size(147, 22);
+            this.txtServicioM.Size = new System.Drawing.Size(147, 26);
             this.txtServicioM.TabIndex = 15;
+            this.txtServicioM.Visible = false;
             // 
             // lblAfiliacion
             // 
             this.lblAfiliacion.AutoSize = true;
             this.lblAfiliacion.Location = new System.Drawing.Point(523, 136);
             this.lblAfiliacion.Name = "lblAfiliacion";
-            this.lblAfiliacion.Size = new System.Drawing.Size(105, 16);
+            this.lblAfiliacion.Size = new System.Drawing.Size(130, 20);
             this.lblAfiliacion.TabIndex = 16;
             this.lblAfiliacion.Text = "No. de Afiliación";
             // 
@@ -223,7 +229,7 @@
             // 
             this.txtAfiliacion.Location = new System.Drawing.Point(634, 133);
             this.txtAfiliacion.Name = "txtAfiliacion";
-            this.txtAfiliacion.Size = new System.Drawing.Size(304, 22);
+            this.txtAfiliacion.Size = new System.Drawing.Size(304, 26);
             this.txtAfiliacion.TabIndex = 17;
             // 
             // lblDatosPadres
@@ -232,7 +238,7 @@
             this.lblDatosPadres.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatosPadres.Location = new System.Drawing.Point(47, 177);
             this.lblDatosPadres.Name = "lblDatosPadres";
-            this.lblDatosPadres.Size = new System.Drawing.Size(202, 24);
+            this.lblDatosPadres.Size = new System.Drawing.Size(256, 29);
             this.lblDatosPadres.TabIndex = 18;
             this.lblDatosPadres.Text = "Datos de los Padres ";
             // 
@@ -241,7 +247,7 @@
             this.lblPadre.AutoSize = true;
             this.lblPadre.Location = new System.Drawing.Point(48, 212);
             this.lblPadre.Name = "lblPadre";
-            this.lblPadre.Size = new System.Drawing.Size(119, 16);
+            this.lblPadre.Size = new System.Drawing.Size(144, 20);
             this.lblPadre.TabIndex = 19;
             this.lblPadre.Text = "Nombre del Padre";
             // 
@@ -250,7 +256,7 @@
             this.lblCelularP.AutoSize = true;
             this.lblCelularP.Location = new System.Drawing.Point(531, 212);
             this.lblCelularP.Name = "lblCelularP";
-            this.lblCelularP.Size = new System.Drawing.Size(112, 16);
+            this.lblCelularP.Size = new System.Drawing.Size(138, 20);
             this.lblCelularP.TabIndex = 20;
             this.lblCelularP.Text = "Celular del Padre";
             // 
@@ -259,7 +265,7 @@
             this.lblMadre.AutoSize = true;
             this.lblMadre.Location = new System.Drawing.Point(48, 245);
             this.lblMadre.Name = "lblMadre";
-            this.lblMadre.Size = new System.Drawing.Size(132, 16);
+            this.lblMadre.Size = new System.Drawing.Size(161, 20);
             this.lblMadre.TabIndex = 21;
             this.lblMadre.Text = "Nombre de la Madre";
             // 
@@ -268,7 +274,7 @@
             this.lblCelularM.AutoSize = true;
             this.lblCelularM.Location = new System.Drawing.Point(531, 245);
             this.lblCelularM.Name = "lblCelularM";
-            this.lblCelularM.Size = new System.Drawing.Size(125, 16);
+            this.lblCelularM.Size = new System.Drawing.Size(155, 20);
             this.lblCelularM.TabIndex = 22;
             this.lblCelularM.Text = "Celular de la Madre";
             // 
@@ -276,28 +282,28 @@
             // 
             this.txtPadre.Location = new System.Drawing.Point(186, 207);
             this.txtPadre.Name = "txtPadre";
-            this.txtPadre.Size = new System.Drawing.Size(339, 22);
+            this.txtPadre.Size = new System.Drawing.Size(339, 26);
             this.txtPadre.TabIndex = 23;
             // 
             // txtCelularP
             // 
             this.txtCelularP.Location = new System.Drawing.Point(662, 207);
             this.txtCelularP.Name = "txtCelularP";
-            this.txtCelularP.Size = new System.Drawing.Size(276, 22);
+            this.txtCelularP.Size = new System.Drawing.Size(276, 26);
             this.txtCelularP.TabIndex = 24;
             // 
             // txtMadre
             // 
             this.txtMadre.Location = new System.Drawing.Point(186, 242);
             this.txtMadre.Name = "txtMadre";
-            this.txtMadre.Size = new System.Drawing.Size(339, 22);
+            this.txtMadre.Size = new System.Drawing.Size(339, 26);
             this.txtMadre.TabIndex = 25;
             // 
             // txtCelularM
             // 
             this.txtCelularM.Location = new System.Drawing.Point(662, 242);
             this.txtCelularM.Name = "txtCelularM";
-            this.txtCelularM.Size = new System.Drawing.Size(276, 22);
+            this.txtCelularM.Size = new System.Drawing.Size(276, 26);
             this.txtCelularM.TabIndex = 26;
             // 
             // lblAExtra
@@ -306,7 +312,7 @@
             this.lblAExtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAExtra.Location = new System.Drawing.Point(47, 287);
             this.lblAExtra.Name = "lblAExtra";
-            this.lblAExtra.Size = new System.Drawing.Size(171, 24);
+            this.lblAExtra.Size = new System.Drawing.Size(213, 29);
             this.lblAExtra.TabIndex = 27;
             this.lblAExtra.Text = "Actividades Extra";
             // 
@@ -315,7 +321,7 @@
             this.chckNatacion.AutoSize = true;
             this.chckNatacion.Location = new System.Drawing.Point(51, 324);
             this.chckNatacion.Name = "chckNatacion";
-            this.chckNatacion.Size = new System.Drawing.Size(81, 20);
+            this.chckNatacion.Size = new System.Drawing.Size(97, 24);
             this.chckNatacion.TabIndex = 28;
             this.chckNatacion.Text = "Natación";
             this.chckNatacion.UseVisualStyleBackColor = true;
@@ -326,7 +332,7 @@
             this.lblComida.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblComida.Location = new System.Drawing.Point(47, 366);
             this.lblComida.Name = "lblComida";
-            this.lblComida.Size = new System.Drawing.Size(182, 24);
+            this.lblComida.Size = new System.Drawing.Size(228, 29);
             this.lblComida.TabIndex = 29;
             this.lblComida.Text = "Comida y Estancia";
             // 
@@ -335,7 +341,7 @@
             this.lblHorario.AutoSize = true;
             this.lblHorario.Location = new System.Drawing.Point(49, 408);
             this.lblHorario.Name = "lblHorario";
-            this.lblHorario.Size = new System.Drawing.Size(53, 16);
+            this.lblHorario.Size = new System.Drawing.Size(65, 20);
             this.lblHorario.TabIndex = 30;
             this.lblHorario.Text = "Horario";
             // 
@@ -344,15 +350,17 @@
             this.cmbHorario.FormattingEnabled = true;
             this.cmbHorario.Location = new System.Drawing.Point(108, 405);
             this.cmbHorario.Name = "cmbHorario";
-            this.cmbHorario.Size = new System.Drawing.Size(212, 24);
+            this.cmbHorario.Size = new System.Drawing.Size(212, 28);
             this.cmbHorario.TabIndex = 31;
+            this.cmbHorario.SelectedIndexChanged += new System.EventHandler(this.CmbHorario_SelectedIndexChanged);
             // 
             // chckComida
             // 
             this.chckComida.AutoSize = true;
-            this.chckComida.Location = new System.Drawing.Point(383, 408);
+            this.chckComida.Enabled = false;
+            this.chckComida.Location = new System.Drawing.Point(405, 406);
             this.chckComida.Name = "chckComida";
-            this.chckComida.Size = new System.Drawing.Size(74, 20);
+            this.chckComida.Size = new System.Drawing.Size(88, 24);
             this.chckComida.TabIndex = 32;
             this.chckComida.Text = "Comida";
             this.chckComida.UseVisualStyleBackColor = true;
@@ -362,44 +370,27 @@
             this.chckDesayuno.AutoSize = true;
             this.chckDesayuno.Location = new System.Drawing.Point(526, 406);
             this.chckDesayuno.Name = "chckDesayuno";
-            this.chckDesayuno.Size = new System.Drawing.Size(89, 20);
+            this.chckDesayuno.Size = new System.Drawing.Size(106, 24);
             this.chckDesayuno.TabIndex = 33;
             this.chckDesayuno.Text = "Desayuno";
             this.chckDesayuno.UseVisualStyleBackColor = true;
             // 
-            // lblCantidad
+            // lblFamiliares
             // 
-            this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad.Location = new System.Drawing.Point(47, 456);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(210, 24);
-            this.lblCantidad.TabIndex = 34;
-            this.lblCantidad.Text = "Cantidad de Alumnos";
-            // 
-            // lblCAlumnos
-            // 
-            this.lblCAlumnos.AutoSize = true;
-            this.lblCAlumnos.Location = new System.Drawing.Point(52, 494);
-            this.lblCAlumnos.Name = "lblCAlumnos";
-            this.lblCAlumnos.Size = new System.Drawing.Size(60, 16);
-            this.lblCAlumnos.TabIndex = 35;
-            this.lblCAlumnos.Text = "Alumnos";
-            // 
-            // cmbCantidad
-            // 
-            this.cmbCantidad.FormattingEnabled = true;
-            this.cmbCantidad.Location = new System.Drawing.Point(118, 491);
-            this.cmbCantidad.Name = "comboBox2";
-            this.cmbCantidad.Size = new System.Drawing.Size(121, 24);
-            this.cmbCantidad.TabIndex = 36;
+            this.lblFamiliares.AutoSize = true;
+            this.lblFamiliares.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFamiliares.Location = new System.Drawing.Point(47, 456);
+            this.lblFamiliares.Name = "lblFamiliares";
+            this.lblFamiliares.Size = new System.Drawing.Size(391, 29);
+            this.lblFamiliares.TabIndex = 34;
+            this.lblFamiliares.Text = "Asociar a otro alumno ya inscrito";
             // 
             // txtStatus
             // 
             this.txtStatus.AutoSize = true;
             this.txtStatus.Location = new System.Drawing.Point(52, 542);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(45, 16);
+            this.txtStatus.Size = new System.Drawing.Size(55, 20);
             this.txtStatus.TabIndex = 37;
             this.txtStatus.Text = "Activo";
             this.txtStatus.Visible = false;
@@ -409,30 +400,20 @@
             this.lblAño.AutoSize = true;
             this.lblAño.Location = new System.Drawing.Point(55, 562);
             this.lblAño.Name = "lblAño";
-            this.lblAño.Size = new System.Drawing.Size(32, 16);
+            this.lblAño.Size = new System.Drawing.Size(38, 20);
             this.lblAño.TabIndex = 38;
             this.lblAño.Text = "Año";
             this.lblAño.Visible = false;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(876, 614);
+            this.btnSave.Location = new System.Drawing.Point(692, 584);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(246, 28);
             this.btnSave.TabIndex = 39;
             this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
-            // 
-            // lblCosto
-            // 
-            this.lblCosto.AutoSize = true;
-            this.lblCosto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCosto.Location = new System.Drawing.Point(826, 546);
-            this.lblCosto.Name = "lblCosto";
-            this.lblCosto.Size = new System.Drawing.Size(48, 16);
-            this.lblCosto.TabIndex = 40;
-            this.lblCosto.Text = "Costo";
             // 
             // lblCost
             // 
@@ -441,42 +422,113 @@
             this.lblCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCost.Location = new System.Drawing.Point(886, 546);
             this.lblCost.Name = "lblCost";
-            this.lblCost.Size = new System.Drawing.Size(0, 18);
+            this.lblCost.Size = new System.Drawing.Size(0, 24);
             this.lblCost.TabIndex = 41;
             // 
-            // lblPago
+            // label1
             // 
-            this.lblPago.AutoSize = true;
-            this.lblPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPago.Location = new System.Drawing.Point(826, 576);
-            this.lblPago.Name = "lblPago";
-            this.lblPago.Size = new System.Drawing.Size(45, 16);
-            this.lblPago.TabIndex = 42;
-            this.lblPago.Text = "Pago";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(45, 497);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 20);
+            this.label1.TabIndex = 44;
+            this.label1.Text = "Nombre(s)";
+            this.label1.Visible = false;
             // 
-            // txtPago
+            // txtNombreAsociado
             // 
-            this.txtPago.Location = new System.Drawing.Point(885, 573);
-            this.txtPago.Name = "textBox1";
-            this.txtPago.Size = new System.Drawing.Size(66, 26);
-            this.txtPago.TabIndex = 43;
+            this.txtNombreAsociado.Location = new System.Drawing.Point(123, 494);
+            this.txtNombreAsociado.Name = "txtNombreAsociado";
+            this.txtNombreAsociado.Size = new System.Drawing.Size(180, 26);
+            this.txtNombreAsociado.TabIndex = 45;
+            this.txtNombreAsociado.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(325, 497);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 20);
+            this.label2.TabIndex = 46;
+            this.label2.Text = "Apellido Paterno";
+            this.label2.Visible = false;
+            // 
+            // txtApellidoPAsociado
+            // 
+            this.txtApellidoPAsociado.Location = new System.Drawing.Point(439, 494);
+            this.txtApellidoPAsociado.Name = "txtApellidoPAsociado";
+            this.txtApellidoPAsociado.Size = new System.Drawing.Size(180, 26);
+            this.txtApellidoPAsociado.TabIndex = 47;
+            this.txtApellidoPAsociado.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(642, 497);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(134, 20);
+            this.label3.TabIndex = 48;
+            this.label3.Text = "Apellido Materno";
+            this.label3.Visible = false;
+            // 
+            // txtApellidoMAsociado
+            // 
+            this.txtApellidoMAsociado.Location = new System.Drawing.Point(758, 494);
+            this.txtApellidoMAsociado.Name = "txtApellidoMAsociado";
+            this.txtApellidoMAsociado.Size = new System.Drawing.Size(180, 26);
+            this.txtApellidoMAsociado.TabIndex = 49;
+            this.txtApellidoMAsociado.Visible = false;
+            // 
+            // GuardarYAgregar
+            // 
+            this.GuardarYAgregar.Location = new System.Drawing.Point(692, 550);
+            this.GuardarYAgregar.Name = "GuardarYAgregar";
+            this.GuardarYAgregar.Size = new System.Drawing.Size(246, 28);
+            this.GuardarYAgregar.TabIndex = 50;
+            this.GuardarYAgregar.Text = "Guardar y Agregar Familiar";
+            this.GuardarYAgregar.UseVisualStyleBackColor = true;
+            this.GuardarYAgregar.Click += new System.EventHandler(this.GuardarYAgregar_Click);
+            // 
+            // asociarAOtro
+            // 
+            this.asociarAOtro.AutoSize = true;
+            this.asociarAOtro.Location = new System.Drawing.Point(367, 464);
+            this.asociarAOtro.Name = "asociarAOtro";
+            this.asociarAOtro.Size = new System.Drawing.Size(18, 17);
+            this.asociarAOtro.TabIndex = 51;
+            this.asociarAOtro.UseVisualStyleBackColor = true;
+            this.asociarAOtro.CheckedChanged += new System.EventHandler(this.AsociarAOtro_CheckedChanged);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(692, 618);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(246, 28);
+            this.btnCancel.TabIndex = 52;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // Registro_Alumnos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(213)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(982, 653);
-            this.Controls.Add(this.txtPago);
-            this.Controls.Add(this.lblPago);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.asociarAOtro);
+            this.Controls.Add(this.GuardarYAgregar);
+            this.Controls.Add(this.txtApellidoMAsociado);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtApellidoPAsociado);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtNombreAsociado);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblCost);
-            this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblAño);
             this.Controls.Add(this.txtStatus);
-            this.Controls.Add(this.cmbCantidad);
-            this.Controls.Add(this.lblCAlumnos);
-            this.Controls.Add(this.lblCantidad);
+            this.Controls.Add(this.lblFamiliares);
             this.Controls.Add(this.chckDesayuno);
             this.Controls.Add(this.chckComida);
             this.Controls.Add(this.cmbHorario);
@@ -561,15 +613,19 @@
         private System.Windows.Forms.ComboBox cmbHorario;
         private System.Windows.Forms.CheckBox chckComida;
         private System.Windows.Forms.CheckBox chckDesayuno;
-        private System.Windows.Forms.Label lblCantidad;
-        private System.Windows.Forms.Label lblCAlumnos;
-        private System.Windows.Forms.ComboBox cmbCantidad;
+        private System.Windows.Forms.Label lblFamiliares;
         private System.Windows.Forms.Label txtStatus;
         private System.Windows.Forms.Label lblAño;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Label lblCosto;
         private System.Windows.Forms.Label lblCost;
-        private System.Windows.Forms.Label lblPago;
-        private System.Windows.Forms.TextBox txtPago;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtNombreAsociado;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtApellidoPAsociado;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtApellidoMAsociado;
+        private System.Windows.Forms.Button GuardarYAgregar;
+        private System.Windows.Forms.CheckBox asociarAOtro;
+        private System.Windows.Forms.Button btnCancel;
     }
 }

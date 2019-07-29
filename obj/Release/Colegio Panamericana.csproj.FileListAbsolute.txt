@@ -1,0 +1,27 @@
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\Colegio Panamericana.exe.config
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\Colegio Panamericana.exe.manifest
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\Colegio Panamericana.application
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\Colegio Panamericana.exe
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\Colegio Panamericana.pdb
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\MySql.Data.dll
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\Google.Protobuf.dll
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\bin\Release\MySql.Data.xml
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Confirmacion_Alumno.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Confirmacion_Empleado.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.IniciarSesion.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Inicio_Administrador.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Inicio_Usuario.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Pagos_Alumnos.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Perfil_Alumno.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Perfil_Empleado.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Properties.Resources.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Registro_Empleado.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio_Panamericana.Registro_Alumnos.resources
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.csproj.GenerateResource.cache
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.csproj.CoreCompileInputs.cache
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.exe.manifest
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.application
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.csproj.CopyComplete
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.exe
+C:\Users\Laptop-Lenovo\Desktop\CP-Claudio\ColegioPanamericana\obj\Release\Colegio Panamericana.pdb

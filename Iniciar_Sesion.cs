@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 using Colegio_Panamericana.Connections;
+using MySql.Data.MySqlClient;
 
 namespace Colegio_Panamericana
 {
@@ -22,8 +22,14 @@ namespace Colegio_Panamericana
         public IniciarSesion()
         {
             InitializeComponent();
+            try
+            { 
             connection.Open();
-            
+            }catch(Exception e)
+            {
+                MessageBox.Show("Error al conectar con base de datos, contactar con el administrador.");
+                MessageBox.Show(e.Message);
+            }
         }
 
         public void Login(string user, string pass)
@@ -40,11 +46,16 @@ namespace Colegio_Panamericana
                 {
                     if (table.Rows[0][0].ToString() == "Administrador")
                     {
-                        new Inicio_Administrador().Show();
+                        Inicio_Administrador form = new Inicio_Administrador();
+                        form.Closed += (s, args) => this.Close();
+                        form.Show();
+
                     }
                     else if (table.Rows[0][0].ToString() == "Usuario")
                     {
-                        new Inicio_Usuario().Show();
+                        Inicio_Usuario form = new Inicio_Usuario();
+                        form.Closed += (s, args) => this.Close();
+                        form.Show();
                     }
 
                     this.Hide();
@@ -69,6 +80,23 @@ namespace Colegio_Panamericana
         private void LinkPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MessageBox.Show("Solicita al administrador que te ayude a recuperar tu contraseña");
+        }
+
+        private void TxtUser_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtPass.Select();
+                txtPass.Focus();
+            }
+        }
+
+        private void TxtPass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogin.PerformClick();
+            }
         }
     }
 }

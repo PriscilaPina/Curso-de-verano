@@ -19,7 +19,7 @@ namespace Colegio_Panamericana
         {
             InitializeComponent();
             connection.Open();
-            Dates(dGridEmpleado);
+            Dates();
         }
 
         public void Recovery(string newPass, string conPass, string user)
@@ -60,7 +60,7 @@ namespace Colegio_Panamericana
             }
             connection.Close();
         }
-        public void Dates(DataGridView data)
+        public void Dates()
         {
             MySqlCommand dates = new MySqlCommand("SELECT id_Empleado, Nombre, Apellido_Paterno, Apellido_Materno, Usuario, Tipo_Cuenta FROM Empleado", connection);
             try
@@ -70,7 +70,7 @@ namespace Colegio_Panamericana
                 adapter.Fill(table);
                 BindingSource source = new BindingSource();
                 source.DataSource = table;
-                data.DataSource = source;
+                dGridEmpleado.DataSource = source;
                 adapter.Update(table);
             }
             catch (Exception)
@@ -101,15 +101,24 @@ namespace Colegio_Panamericana
 
         public void SelectCell()
         {
-                int id = int.Parse( dGridEmpleado.SelectedCells[0].Value.ToString());
+
+            try
+            {
+                int id = int.Parse(dGridEmpleado.SelectedCells[0].Value.ToString());
 
                 MySqlCommand cmd = new MySqlCommand("SELECT * FROM Empleado WHERE id_Empleado = @id", connection);
                 cmd.Parameters.AddWithValue("id", id);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                 DataTable table = new DataTable();
                 adapter.Fill(table);
-                new Perfil_Empleado(int.Parse(table.Rows[0][0].ToString()), table.Rows[0][1].ToString(), table.Rows[0][2].ToString(), table.Rows[0][3].ToString(), table.Rows[0][4].ToString(), table.Rows[0][5].ToString(), table.Rows[0][6].ToString()).Show();
-          
+                Perfil_Empleado perfil = new Perfil_Empleado(int.Parse(table.Rows[0][0].ToString()), table.Rows[0][1].ToString(), table.Rows[0][2].ToString(), table.Rows[0][3].ToString(), table.Rows[0][4].ToString(), table.Rows[0][5].ToString(), table.Rows[0][6].ToString());
+                perfil.main_ = this;
+                perfil.ShowDialog();
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         private void BtnSave_Click(object sender, EventArgs e)
@@ -119,7 +128,9 @@ namespace Colegio_Panamericana
 
         private void BtnRegister_Click(object sender, EventArgs e)
         {
-            new Registro_Empleado().Show();
+            Registro_Empleado registro = new Registro_Empleado();
+            registro.main_ = this;
+            registro.ShowDialog();
         }
 
         private void BtnSearch_Click(object sender, EventArgs e)
